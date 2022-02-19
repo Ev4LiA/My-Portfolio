@@ -10,14 +10,11 @@ const AboutPage = () => {
         </div>
         <div class="section-center page-info">
           <p>
-            Hello, I am John Doe and I am a web developer. I live and work in
-            somewhere warm. I spend most of my day, experimenting with HTML, CSS
-            and JavaScript (and its endless list of frameworks). I enjoy coding
-            and the challenge of learning something new everyday. You can also
-            find me at youtube channel
-            <a href="https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA">
-              coding addict
-            </a>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+            excepturi. Pariatur, inventore obcaecati. Odit exercitationem sit,
+            totam commodi dolor excepturi facere quos, fugit, obcaecati facilis
+            nostrum minima omnis! Pariatur natus tempore officiis voluptatem
+            autem aspernatur qui sapiente dignissimos beatae molestiae.
           </p>
         </div>
       </section>
