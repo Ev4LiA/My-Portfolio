@@ -10,12 +10,14 @@ const ContactPage = () => {
         </div>
         <div class="section-center page-info">
           <p>
-            If you are looking to get ahold of me, you can send me an email at
-            <a href="mailto:email@email.com">@your_email</a>
+            If you are looking to get ahold of me, you can send me an email at{' '}
+            <a href="mailto:quocduydo1998@gmail.com">quocduydo1998@gmail.com</a>
           </p>
           <p>
-            You can also reach me on Twitter at
-            <a href="https://www.twitter.com">@your_social_media </a>
+            You can also reach me on Facebook at {''}
+            <a href="https://www.facebook.com/profile.php?id=100004397827570">
+              @Quốc Duy Đỗ
+            </a>
           </p>
         </div>
       </section>

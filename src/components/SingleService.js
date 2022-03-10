@@ -5,7 +5,6 @@ const SingleService = ({ title, icon, text }) => {
   return (
     <Wrapper>
       <article class="service">
-        {/* <i class="fab fa-android service-icon"></i> */}
         {icon}
         <h4>{title}</h4>
         <div class="underline"></div>
@@ -24,6 +23,7 @@ const Wrapper = styled.div`
     text-align: center;
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    height: 350px;
   }
   .service-icon {
     font-size: 2rem;

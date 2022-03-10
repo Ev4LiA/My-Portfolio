@@ -34,12 +34,12 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: 'https://www.facebook.com',
+    url: 'https://www.facebook.com/profile.php?id=100004397827570',
     icon: <FaFacebook />,
   },
   {
     id: 2,
-    url: 'https://vn.linkedin.com/',
+    url: 'https://www.linkedin.com/in/duydoquoc/',
     icon: <FaLinkedin />,
   },
   {
@@ -54,58 +54,70 @@ export const services = [
     id: 1,
     title: 'Web Developer',
     icon: <FaCode className="service-icon" />,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit accusamus pariatur quis alias reprehenderit vel laudantium quibusdam? Necessitatibus, laborum!',
+    text: 'I can build some decent web app, which has full function and operates stable. I use ReactJS framework plus other modules like Stripe, Auth0, ... to build most of my project. I can also use CSS and SCSS to style my websites.',
   },
   {
     id: 2,
     title: 'Mobile App Developer',
     icon: <FaAndroid className="service-icon" />,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit accusamus pariatur quis alias reprehenderit vel laudantium quibusdam? Necessitatibus, laborum!',
+    text: 'I am a beginner in this field, but right now I start to learn react native and flutter framework. My aim in the near future is becoming a mobile app developer.',
   },
   {
     id: 3,
     title: 'UI/UX Designer',
     icon: <IoApps className="service-icon" />,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit accusamus pariatur quis alias reprehenderit vel laudantium quibusdam? Necessitatibus, laborum!',
+    text: 'I know the basic steps and requirement in designing user flow of a website or an app. I am also able to use balsamiq and figma in designing UI for my website and mobile app projects.',
   },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: 'Furiture Shop',
+    title: 'My Portfolio',
     content:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, cum nulla doloremque maiores debitis suscipit architecto! Repellat hic magnam ducimus.',
-    url: '/',
-    image: '',
-    gitUrl: '/',
+      'My small portfolio that showcase my works and skills as software developer',
+    url: 'https://duydoquoc-portfolio.netlify.app/',
+    image: 'https://i.ibb.co/NNg6VPn/my-portfolio.png',
+    gitUrl: 'https://github.com/Ev4LiA/My-Portfolio',
+    tech: 'ReactJS, CSS, Javascript, Styled Component, React Hooks',
   },
   {
     id: 2,
-    title: 'Github Search User',
-    content:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, cum nulla doloremque maiores debitis suscipit architecto! Repellat hic magnam ducimus.',
-    url: '/',
-    image: '',
-    gitUrl: '/',
+    title: 'Furiture Shop',
+    content: 'An E-commerce Project. A furniture selling shop.',
+    url: 'https://furniture-shop-duy.netlify.app/',
+    image: 'https://i.ibb.co/XyCSXND/furniture-shop.png',
+    gitUrl: 'https://github.com/Ev4LiA/furniture-shop',
+    tech: 'ReactJS, CSS, Javascript, Styled Component, React Hooks',
   },
   {
     id: 3,
-    title: 'Dice Game',
-    content:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, cum nulla doloremque maiores debitis suscipit architecto! Repellat hic magnam ducimus.',
-    url: '/',
-    image: '',
-    gitUrl: '/',
+    title: 'Github Search User',
+    content: 'Github User Search Engine. You can search for any github user',
+    url: 'https://react-github-user-search-engine.netlify.app/login',
+    image: 'https://i.ibb.co/8PTgYHj/github-search.png',
+    gitUrl: 'https://github.com/Ev4LiA/react-github-user-search-engine',
+    tech: 'ReactJS, CSS, Javascript, Styled Component, React Hooks',
   },
+
   {
     id: 4,
     title: 'Web/Code Playground',
     content:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, cum nulla doloremque maiores debitis suscipit architecto! Repellat hic magnam ducimus.',
-    url: '/',
-    image: '',
-    gitUrl: '/',
+      'A Javascript - Markdown code sandbox - where you can type any Js code or Markdown',
+    url: 'https://duy-js-markdown-sandbox.netlify.app/',
+    image: 'https://i.ibb.co/tLZYj6L/js-sandbox.png',
+    gitUrl: 'https://github.com/Ev4LiA/Js-Markdown-Sandbox',
+    tech: 'ReactJS, CSS, Typescript, Redux',
+  },
+  {
+    id: 5,
+    title: 'Pig Game',
+    content: 'Pig Game is a simple dice spel game.',
+    url: 'https://pig-game-duy.netlify.app/',
+    image: 'https://i.ibb.co/jgrgfvT/pig-game.png',
+    gitUrl: 'https://github.com/Ev4LiA/Pig-Game',
+    tech: 'HTML, CSS, Javascript',
   },
 ];
 

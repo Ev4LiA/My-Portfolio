@@ -27,6 +27,15 @@ const Sidebar = () => {
                 </li>
               );
             })}
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1hw_uJwrlLJAXRv1qOn38-xvQg2xqlaa2/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                My Resume
+              </a>
+            </li>
           </ul>
           <ul className="social-icons">
             {social.map(({ id, url, icon }) => {

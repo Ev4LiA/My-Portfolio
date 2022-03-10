@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import styled from 'styled-components';
 
-const SingleProject = ({ title, content, url, image, gitUrl }) => {
+const SingleProject = ({ title, content, url, image, gitUrl, tech }) => {
   return (
     <Wrapper>
       <a href={url}>
@@ -12,6 +12,7 @@ const SingleProject = ({ title, content, url, image, gitUrl }) => {
             <div className="card-info">
               <h4>{title}</h4>
               <p>{content}</p>
+              <p className="tech">{tech}</p>
             </div>
             <div className="card-footer">
               <a href={gitUrl} className="btn">
@@ -27,7 +28,7 @@ const SingleProject = ({ title, content, url, image, gitUrl }) => {
 
 const Wrapper = styled.div`
   .card {
-    height: 27rem;
+    height: 28rem;
     position: relative;
     perspective: 1500px;
     background: var(--clr-white);
@@ -71,6 +72,11 @@ const Wrapper = styled.div`
   .btn:hover {
     background-color: var(--clr-grey-5);
     color: var(--clr-white);
+  }
+  .tech {
+    color: var(--clr-grey-2);
+    font-style: italic;
+    font-size: 0.8rem;
   }
 `;
 

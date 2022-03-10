@@ -31,7 +31,7 @@ const Connect = () => {
             perferendis nihil natus totam incidunt. Corrupti, laborum
             dignissimos! Porro, delectus.
           </p>
-          <a href="contact.html" class="btn">
+          <a href="contact" class="btn">
             Contact me
           </a>
         </div>

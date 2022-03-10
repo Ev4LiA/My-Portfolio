@@ -42,11 +42,11 @@ const Navbar = () => {
             })}
             <li>
               <a
-                href="https://drive.google.com/file/d/11jx4T5b7GtparOEmJGyQ6CLCUVYT4uv2/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hw_uJwrlLJAXRv1qOn38-xvQg2xqlaa2/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download
+                My Resume
               </a>
             </li>
           </ul>
@@ -89,6 +89,11 @@ const NavContainer = styled.div`
     cursor: pointer;
     justify-self: end;
   }
+
+  .download {
+    color: red;
+  }
+
   @media screen and (min-width: 768px) {
     .nav {
       background: var(--clr-primary-10);
@@ -123,6 +128,7 @@ const NavContainer = styled.div`
       align-items: center;
     }
   }
+
   /* fixed navbar */
   .navbar-fixed {
     position: fixed;
